@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-)r@khf=3)t4#$&l_ijy!yk*id6t+&p=9c0pt$(055646o^eo01
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-expense-tracker-yjye.onrender.com'
+    'django-expense-tracker-yjye.onrender.com',
+    'f448-2406-7400-63-586-00-100.ngrok-free.app'
 ]
 
 # Application definition
@@ -62,6 +63,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://4126-2406-7400-63-586-00-100.ngrok-free.app'
 ]
 
 ROOT_URLCONF = 'personal_budget.urls'

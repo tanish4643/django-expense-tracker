@@ -4,7 +4,7 @@ from .views import CategoryViewSet, IncomeViewSet, ExpenseViewSet, BudgetViewSet
 from rest_framework_simplejwt import views as jwt_views
 
 router = DefaultRouter()
-router.register(r'categories', CategoryViewSet)
+# router.register(r'categories', CategoryViewSet)
 router.register(r'incomes', IncomeViewSet)
 router.register(r'expenses', ExpenseViewSet)
 router.register(r'budgets', BudgetViewSet)
